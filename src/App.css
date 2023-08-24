@@ -1,0 +1,117 @@
+/* App-level styles */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  padding: 20px;
+  color: #000000;
+}
+
+/* Previous styles */
+.App-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #F4F5F8;
+  
+}
+
+.Card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 270px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 5px;
+  margin:5px;
+}
+
+/* Modified styles */
+.App-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.TagSection {
+  flex: 1;
+  margin: 10px;
+}
+
+
+
+.Card h4 {
+  margin: 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.Card p {
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* ... Previous styles ... */
+
+.content{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Dropdowns {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: #ccc;
+}
+
+.Dropdown {
+  margin-right: 10px;
+}
+
+.Dropdown label {
+  margin-right: 5px;
+}
+
+.Dropdown select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.SubGroup {
+  margin-top: 20px;
+}
+
+.SubGroup h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+/* ... Other styles ... */
+
+.Sectioncontainer {
+  display: flex;
+  overflow-x: auto;
+}
+
+.Section {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  padding: 5px;
+  min-width: 150px; 
+}
+
+.CardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+/* ... Card styles as before ... */
